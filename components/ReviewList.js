@@ -15,6 +15,7 @@ app.component("review-list", {
         {{ review.name }} gave this {{ review.rating }} stars
         <br/>
         "{{ review.review }}"
+        Recommended: {{ review.recommend }}
         <br/>
       </li>
     </ul>
