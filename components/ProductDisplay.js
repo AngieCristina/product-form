@@ -42,7 +42,7 @@ app.component("product-display", {
   data() {
     return {
       product: "Socks",
-      brand: "Vue Mastery",
+      brand: "Comfy",
       selectedVariant: 0,
       details: ["50% cotton", "30% wool", "20% polyester"],
       variants: [
